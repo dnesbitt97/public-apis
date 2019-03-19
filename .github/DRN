@@ -1,0 +1,12 @@
+GET /search.json
+ $ curl https://projects.propublica.org/nonprofits/api/v2/search.json?q=propublica
+
+----
+
+{
+  "total_results":1,
+  "organizations":[{
+    "ein":430452625,
+    "strein":"43-0452625",
+    
+    
